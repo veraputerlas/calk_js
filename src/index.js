@@ -58,6 +58,8 @@ function calc(number1, number2, operator) {
             return +number1 * +number2
         case "/":
             return +number1 / +number2
+        case "%":
+            return +number1 % +number2
         case "+/-":
             return num1
 
